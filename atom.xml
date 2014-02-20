@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Jeffinitely A Blog</title>
+ <link href="http://jeffinitely.com/atom.xml" rel="self"/>
+ <link href="http://jeffinitely.com/"/>
+ <updated>2014-03-12T03:14:06-07:00</updated>
+ <id>http://jeffinitely.com</id>
+ <author>
+   <name>Jeff Ruberg</name>
+ </author>
+
+ 
+ <entry>
+   <title>Where Have All the Good Tweets Gone?</title>
+   <link href="http://jeffinitely.com/2014/03/12/where-have-all-the-good-tweets-gone"/>
+   <updated>2014-03-12T00:00:00-07:00</updated>
+   <id>http://jeffinitely.com/2014/03/12/where-have-all-the-good-tweets-gone</id>
+   <content type="html">&lt;p&gt;Occasionally, I look back at my tweets. I don&amp;rsquo;t think this is exceptional or niche behavior—sometimes I want to get a link to a previous tweet, or I want to look at a picture I posted. This is normal, right? I&amp;rsquo;m not crazy, right? Right? Well, let&amp;rsquo;s get to the crazy. A week and a half ago, my new tweets stopped showing up.&lt;/p&gt;
+
+&lt;p&gt;I mostly use Twitter via Tweetbot 3 for iPhone, and view my list of tweets in the personal account tab. Here is what I see, and have seen for the past week and a half. On the left shows my profile with no tweets since Feb. 25, and on the right shows my timeline and some tweets I&amp;rsquo;d posted in the past hour.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/blackhole_intro.jpg&quot;&gt;&lt;img src=&quot;/img/blackhole_intro.jpg&quot; alt=&quot;Tweetbot 3 for iPhone&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;So what&amp;rsquo;s going on? It&amp;rsquo;s worth noting that the Tweetbot profile tab&amp;rsquo;s count of my tweets does update after each one, and that these tweets do seem to go out to the world in &lt;a href=&quot;https://dev.twitter.com/docs/api/1/get/statuses/home_timeline&quot;&gt;home timelines&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If I query the Twitter 1.1 API for my &lt;a href=&quot;https://dev.twitter.com/docs/api/1/get/statuses/user_timeline&quot;&gt;user timeline&lt;/a&gt; (which I assume is the same API call that apps use to populate this list), I can definitely see my new tweets, even with the &lt;code&gt;since_id&lt;/code&gt; pramater set to the last ID shown by Tweetbot (trying to reproduce the request that a client would be making).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/blackhole_api.png&quot;&gt;&lt;img src=&quot;/img/blackhole_api.png&quot; alt=&quot;Twitter 1.1 API&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Also, this is not an issue isolated to Tweetbot. I have reproduced similar behavior in every Twitter app I have tried, but the weird thing is that the last tweet shown is not universal (links are to screenshots of each app, dates are of last tweet shown):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;/img/blackhole_iphone_tweetbot3.png&quot;&gt;Tweetbot 3 (3.3) for iPhone&lt;/a&gt; (Feb 23)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/img/blackhole_iphone_twitterific.png&quot;&gt;Twitterific 5 (5.6.1) for iPhone&lt;/a&gt; (Feb 25)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/img/blackhole_iphone_tweetbot2.png&quot;&gt;Tweetbot 2 (2.8.7) for iPhone&lt;/a&gt; (Feb 23)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/img/blackhole_iphone_twitter_2.png&quot;&gt;Twitter (6.2.1) for iPhone&lt;/a&gt; (Feb 23)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/img/blackhole_ipad_twitterific.png&quot;&gt;Twitterific 5 (5.6.1) for iPad&lt;/a&gt; (Feb 25)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/img/blackhole_ipad_tweetbot2_2.png&quot;&gt;Tweetbot 2 (2.8.6) for iPad&lt;/a&gt; (Feb 23)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/img/blackhole_ipad_twitter_2.png&quot;&gt;Twitter (6.2.1) for iPad&lt;/a&gt; (Feb 23)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/img/blackhole_mac_tweetbot.png&quot;&gt;Tweetbot (1.4.2) for Mac&lt;/a&gt; (Feb 23)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/img/blackhole_mac_twitter.png&quot;&gt;Twitter (3.0.1) for Mac&lt;/a&gt; (Feb 23)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/img/blackhole_mac_twitterific.png&quot;&gt;Twitterific 4 (4.5.1) for Mac&lt;/a&gt; (Feb 24)&lt;/li&gt;
+&lt;li&gt;iPhone web interface (&lt;a href=&quot;/img/blackhole_iphone_web_in.png&quot;&gt;logged in&lt;/a&gt; / &lt;a href=&quot;/img/blackhole_iphone_web_out.png&quot;&gt;logged out&lt;/a&gt;) (Feb 23)&lt;/li&gt;
+&lt;li&gt;iPad web interface (&lt;a href=&quot;/img/blackhole_ipad_web_in.png&quot;&gt;logged in&lt;/a&gt; / &lt;a href=&quot;/img/blackhole_ipad_web_out.png&quot;&gt;logged out&lt;/a&gt;) (Feb 23)&lt;/li&gt;
+&lt;li&gt;desktop web interface (&lt;a href=&quot;/img/blackhole_web_in.png&quot;&gt;logged in&lt;/a&gt; / &lt;a href=&quot;/img/blackhole_web_out.png&quot;&gt;logged out&lt;/a&gt;) (Feb 21)&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;I have, oddly enough, found one interface that shows my latest tweets—the &lt;em&gt;Me&lt;/em&gt; view of Twitter 6.2.1 for iPhone, but even this interface is not consistent. On the left is the overview for the &lt;em&gt;Me&lt;/em&gt; screen and shows all tweets, and on the right is the &amp;ldquo;full&amp;rdquo; list of tweets by me (found by tapping the &lt;code&gt;2,829 TWEETS&lt;/code&gt; button or the &lt;code&gt;View more tweets&lt;/code&gt; button that is below the content shown in the screenshot) and only shows tweets up to February 23.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/blackhole_iphone_twitter_compare.jpg&quot;&gt;&lt;img src=&quot;/img/blackhole_iphone_twitter_compare.jpg&quot; alt=&quot;Twitter 6.2.1 for iPhone, Me tab&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve tried to think about what weird things I could have possibly done with Twitter—what could make me an edge case—to cause this situation. Here are a couple possibilities:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Around January 1st, I changed my Twitter handle from @rubergly to @jeffinitelyjeff. Everything seems to have broken nearly 2 months later and was fine until then, so I don&amp;rsquo;t see how this could be the cause.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;On or around January 23rd, I was blocked by &lt;a href=&quot;https://twitter.com/mantia&quot;&gt;Louie Mantia&lt;/a&gt;. As I&amp;rsquo;m not a troll and try to have civilized and intelligent discourse with people I respect (like Louie) on Twitter, I consider this to be exceptional&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, but I think it&amp;rsquo;s unlikely that all users that have ever been blocked are treated differently, and also don&amp;rsquo;t see how this could affect things a month later.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;hr /&gt;
+
+&lt;p&gt;There is one possible explanation. This is my tweet that most commonly shows up as the last one (in Tweetbot, most Twitters, and most Twitterifics):&lt;/p&gt;
+
+&lt;div class=&quot;twitter-block&quot;&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot; data-dnt=&quot;true&quot; data-conversation=&quot;none&quot; lang=&quot;en&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://twitter.com/joesteel&quot;&gt;@joesteel&lt;/a&gt; fine, Goe.&lt;/p&gt;&amp;mdash; Jeff Ruberg (@jeffinitelyjeff) &lt;a href=&quot;https://twitter.com/jeffinitelyjeff/statuses/437852114044215296&quot;&gt;February 24, 2014&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;And this was Joe&amp;rsquo;s reply to that tweet:&lt;/p&gt;
+
+&lt;div class=&quot;twitter-block&quot;&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot; data-dnt=&quot;true&quot; data-conversation=&quot;none&quot; lang=&quot;en&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://twitter.com/jeffinitelyjeff&quot;&gt;@jeffinitelyjeff&lt;/a&gt; Do not pass Goe. Do not collect $200.&lt;/p&gt;&amp;mdash; Joe Rosensteel (@joesteel) &lt;a href=&quot;https://twitter.com/joesteel/statuses/437852535760486400&quot;&gt;February 24, 2014&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;I think it&amp;rsquo;s clear that Joe has cursed me to never pass Goe.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;If you have any feedback or insight into what&amp;rsquo;s going on, or have experienced this issue yourself, I&amp;rsquo;d love to hear about it on &lt;a href=&quot;https://twitter.com/jeffinitelyjeff&quot;&gt;Twitter&lt;/a&gt;. Or you can just click that link to see how the latest tweet is from February 21 or 23 depending what browser you&amp;rsquo;re using.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+&lt;hr/&gt;
+&lt;ol&gt;
+&lt;li id=&quot;fn:1&quot;&gt;
+&lt;p&gt;I believe he blocked me because of a poorly phrased joke that I made in a reply. He was correcting the world about the plural of the word &amp;ldquo;Jedi&amp;rdquo;, and I tried playing off everyone&amp;rsquo;s shared hatred of the prequels and the observation that the existence of multiple Jedi is never really present in the original trilogy, and replied &lt;a href=&quot;https://twitter.com/jeffinitelyjeff/status/426448241442316288&quot;&gt;&amp;ldquo;no, the plural of Jedi is the prequels. stop talking about them&amp;rdquo;&lt;/a&gt;, and the last part on its own could easily be read as drivel telling him what he should or shouldn&amp;rsquo;t tweet about, which wasn&amp;rsquo;t my intention at all.&lt;a href=&quot;#fnref:1&quot; rev=&quot;footnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+
+</content>
+ </entry>
+ 
+
+</feed>
