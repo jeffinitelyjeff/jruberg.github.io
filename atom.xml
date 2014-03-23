@@ -4,12 +4,58 @@
  <title>Jeffinitely A Blog</title>
  <link href="http://jeffinitely.com/atom.xml" rel="self"/>
  <link href="http://jeffinitely.com/"/>
- <updated>2014-03-12T03:14:06-07:00</updated>
+ <updated>2014-03-23T15:35:03-07:00</updated>
  <id>http://jeffinitely.com</id>
  <author>
    <name>Jeff Ruberg</name>
  </author>
 
+ 
+ <entry>
+   <title>Really Serviceable Syndication</title>
+   <link href="http://jeffinitely.com/2014/03/23/really-serviceable-syndication"/>
+   <updated>2014-03-23T00:00:00-07:00</updated>
+   <id>http://jeffinitely.com/2014/03/23/really-serviceable-syndication</id>
+   <content type="html">&lt;p&gt;What is the goal of RSS?&lt;/p&gt;
+
+&lt;p&gt;Disclaimer: in this article, I will almost uniformally use &amp;ldquo;RSS&amp;rdquo; to refer to both the &lt;a href=&quot;http://en.wikipedia.org/wiki/Rss&quot;&gt;RSS&lt;/a&gt; and &lt;a href=&quot;http://en.wikipedia.org/wiki/Atom_feed&quot;&gt;Atom&lt;/a&gt; feed formats. For the purposes of this discussion, RSS and Atom are two philosophically different specs to implementing the same behavior.&lt;/p&gt;
+
+&lt;p&gt;An RSS feed is an updated XML file containing a list of items (e.g., blog posts for a blog, or episodes for a podcast) with metadata (or full text content). This makes it extremely easy to look at a summary of recently published content (and this makes sense, given the original and official name of RSS is &lt;a href=&quot;http://en.wikipedia.org/wiki/Rss&quot;&gt;Rich Site Summary&lt;/a&gt;), but is this the goal of RSS? It seems like an interesting goal, but I&amp;rsquo;ve never once heard of RSS being used in this way. Some services like &lt;a href=&quot;http://feedburner.google.com/&quot;&gt;Feedburner&lt;/a&gt; and &lt;a href=&quot;http://feedpress.it/&quot;&gt;Feedpress&lt;/a&gt; elegantly display an RSS feed so it can be used for the purpose, but it&amp;rsquo;s not reliable—a novice user who clicks on a link to a random RSS feed doesn&amp;rsquo;t know whether they&amp;rsquo;ll end up with a blob of XML or a nicely browsable summary, and I suspect users are immediately intimidated when they hit the XML.&lt;/p&gt;
+
+&lt;p&gt;RSS is rarely used for displayable summaries of content, so what is it used for? Content subscription. A scheme for providing updates to content should answer the following questions:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What are the new items since X?&lt;/li&gt;
+&lt;li&gt;What old items been modified since X?&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;and it should answer them:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;concisely&lt;/li&gt;
+&lt;li&gt;quickly&lt;/li&gt;
+&lt;li&gt;reliably&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Let&amp;rsquo;s look at how an application could use an RSS feed to answer these questions&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. When a user adds an RSS feed to an application, the client will read in the XML file and cache a representation of the items found (e.g., in a podcast client, it will create episode objects, and proably begin downloading the most recent episode&amp;rsquo;s audio file), and save a timestamp representing the last time the feed was read. On subsequent updates, the client will read in the new XML file and merge the new file with the old cached content—it is up to the app to create new objects representing new items, and modify or delete the previously-cached ones. So how does it answer the questions raised above? &amp;ldquo;I dunno, here&amp;rsquo;s all our content—you figure it out!&amp;rdquo;. Assuming an app is a perfect citizen and internalizes all of the diffing and merging logic without error, can the app use the feed to infer the answer to these questions concisely, quickly, and reliably?&lt;/p&gt;
+
+&lt;p&gt;If the XML file has not been modified since the last time an update was checked and the client is smart about using the &amp;ldquo;If-Modified-Since&amp;rdquo; header, the server can just reply with a &amp;ldquo;Not Modified&amp;rdquo; response concisely and quickly. However, every time the file has been modified, the RSS feed must provide all (redundant and mostly unmodified) content—if there&amp;rsquo;s a new episode of &lt;a href=&quot;http://www.flophousepodcast.com/&quot;&gt;The Flop House podcast&lt;/a&gt;, the request response must include 258 kb of XML with metadata for all 144 episodes of the show for the client to get the 2 kb for the latest episode. Accessing several such feeds from a mobile device (which is especially relevant for podcast feeds) can take a very long time. If items are modified after they have been cached, different apps implement different behavior for how that should be dealt with, and neither users nor publishers can reliably predict how that content will be treated (if a podcast feed is updated with a new enclosure link, does the client delete the old episode and download the new one? if a blog post&amp;rsquo;s content is included in full and is modified, does the client show diffs like &lt;a href=&quot;http://netnewswireapp.com/&quot;&gt;NetNewsWire&lt;/a&gt; and &lt;a href=&quot;http://newsblur.com/&quot;&gt;Newsblur&lt;/a&gt;?).&lt;/p&gt;
+
+&lt;p&gt;I have some thoughts about alternative syndication formats, but nothing fully formed that could more efficiently answer the important subscription-related queries without losing the simplicity of RSS&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. Do you have ideas? Do you think these issues with RSS are silly? Let me know on &lt;a href=&quot;twitter.com/jeffinitelyjeff&quot;&gt;twitter&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+&lt;hr/&gt;
+&lt;ol&gt;
+&lt;li id=&quot;fn:1&quot;&gt;
+&lt;p&gt;I have never written an application which reads an RSS feed, so these are all just reasonable guesses. If you have experience with this and have feedback, I&amp;rsquo;d love to hear about it on &lt;a href=&quot;http://twitter.com/jeffinitelyjeff&quot;&gt;Twitter&lt;/a&gt;.&lt;a href=&quot;#fnref:1&quot; rev=&quot;footnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&quot;fn:2&quot;&gt;
+&lt;p&gt;Something backed by a git repository seems like the obvious thing, and version-controlled XML would give backwards compatiblity with RSS for free, but would lack the understanding of whether a commit represents a new item (in which case it should only be inserting lines at a specific part of the top of the file), old item modification, or feed modification. Maybe the git object model could be used to track the tree of XML&amp;hellip;? There&amp;rsquo;s also the issue that publishers shouldn&amp;rsquo;t be able to modify content without &amp;ldquo;announcing&amp;rdquo; it (e.g., adding a commit if it were git-backed), but should be able to delete content (without it appearing in any public history anymore, as it would if everything was just a public git repo without rewritten history) both on demand and at a regular schedule. I also doubt fetching from a git repo would be as fast as being served a static file.&lt;a href=&quot;#fnref:2&quot; rev=&quot;footnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Where Have All the Good Tweets Gone?</title>
