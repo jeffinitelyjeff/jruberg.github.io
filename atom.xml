@@ -4,12 +4,150 @@
  <title>Jeffinitely A Blog</title>
  <link href="http://jeffinitely.com/atom.xml" rel="self"/>
  <link href="http://jeffinitely.com/"/>
- <updated>2014-06-30T22:53:55-07:00</updated>
+ <updated>2014-07-01T01:41:12-07:00</updated>
  <id>http://jeffinitely.com</id>
  <author>
    <name>Jeff Ruberg</name>
  </author>
 
+ 
+ <entry>
+   <title>Planning Media with Trello</title>
+   <link href="http://jeffinitely.com/2014/07/01/trello-media"/>
+   <updated>2014-07-01T00:00:00-07:00</updated>
+   <id>http://jeffinitely.com/2014/07/01/trello-media</id>
+   <content type="html">&lt;p&gt;When I was in school, I had a pretty good system for managing what games to play next: a stack of DVD cases. I owned maybe one or two games that I never got around to playing (and they bugged me a bit), but aside from that it was a pretty efficient system—I had a lot of time, and not much money, so I saved up for the game I wanted, played it, and then bought the next game months later. Now that I have a disposable income, a full-time job, listen to several gaming podcasts, and the flow of awesome games coming out keeps growing, I need a more advanced system to track the games, books, and TV I want to play, read, and watch.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/trello_media.png&quot;&gt;&lt;img src=&quot;/img/trello_media.png&quot; alt=&quot;My Trello media board&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For the past 2 years I&amp;rsquo;ve used &lt;a href=&quot;https://trello.com/&quot;&gt;Trello&lt;/a&gt;, a free collaborative list- and project-management tool (with really great web and mobile apps), to plan and prioritize what long-term media (books, video games, and TV show binges) to consume&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;At first I only aimed to maintain an organized queue of what to do next, but as more time has passed, I&amp;rsquo;ve found a record of what I&amp;rsquo;ve done (and when) to be invaluable. With little thought, I can easily recite every game I played in 11th grade 7 years ago&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;, but of the 35 games I played in 2013 I can only recall a couple standouts off the top of my head (&lt;em&gt;Gone Home&lt;/em&gt;, &lt;em&gt;Brothers: A Tale of Two Sons&lt;/em&gt;, &lt;em&gt;Papers, Please&lt;/em&gt;, and &lt;em&gt;Bioshock Infinite&lt;/em&gt;), so a detailed record of when I&amp;rsquo;ve played everything is really nice.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve tried a couple online services focused on tracking books (&lt;a href=&quot;https://www.goodreads.com/&quot;&gt;Goodreads&lt;/a&gt;), games (&lt;a href=&quot;http://dpadd.com/&quot;&gt;dpadd&lt;/a&gt; and &lt;a href=&quot;http://www.backloggery.com/&quot;&gt;The Backloggery&lt;/a&gt;), and TV shows (&lt;a href=&quot;https://trakt.tv/&quot;&gt;traktv&lt;/a&gt;), but these have always felt like a tedious activity to keep several sites in sync—what is great about my Trello media queue is that&amp;rsquo;s a one-stop dashboard for everything I&amp;rsquo;m consuming long-term. I think this system is very robust and useful (and looks cool), so I&amp;rsquo;m sharing what I do in the hopes that you might find some of the ideas useful as well. Feel free to use this guide to create your own Trello board; I&amp;rsquo;ve even made a &lt;a href=&quot;https://trello.com/b/sBuJV0IG/public-media&quot;&gt;public template&lt;/a&gt; that you can copy into your account and use as a starting point.&lt;/p&gt;
+
+&lt;h1&gt;My Setup&lt;/h1&gt;
+
+&lt;h2&gt;Basics&lt;/h2&gt;
+
+&lt;p&gt;The basic unit of a Trello board is a &lt;strong&gt;card&lt;/strong&gt;, and several cards sit in a &lt;strong&gt;list&lt;/strong&gt;. When displayed in a list, a card shows a couple minimal details; when you tap on the card, you view the card&amp;rsquo;s back, which displays lengthy information, history, and actions. Various types of metadata can be attached to the card: members (other Trello users), labels, checklists, due dates, attachments, descriptions, and comments.&lt;/p&gt;
+
+&lt;h2&gt;Labels&lt;/h2&gt;
+
+&lt;p&gt;I use labels to distinguish among the different ways I consume media. I consume books differently than I do games or TV shows—but I also consume hour-long TV shows differently (mostly one per day at the gym) than I do half-hour shows (mostly one per day while eating breakfast) and there are categories of games which I enjoy playing while listening to podcasts, while watching videos in the background, or which I need to pay 100% attention to. So here are the labels I use:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Books&lt;/li&gt;
+&lt;li&gt;TV (short)&lt;/li&gt;
+&lt;li&gt;TV (long)&lt;/li&gt;
+&lt;li&gt;Games (focus)&lt;/li&gt;
+&lt;li&gt;Games (bgaudio)&lt;/li&gt;
+&lt;li&gt;Games (bgvideo)&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;I&amp;rsquo;ve gone through a couple different schemes of labels. Initially, I categorized TV shows by whether I could play a game while watching, but then I started watching a lot of web series, and I haven&amp;rsquo;t watched much backgroundable-TV since. Prior to the focus/bgaudio/bgvideo split for games, I divided the games into handheld/console/PC, before I realized that the primary way I used those labels was to determine if a game was handheld and could be played while watching something. The point is: the label system is very flexible to personal taste and changes in cosumption habits.&lt;/p&gt;
+
+&lt;p&gt;Labels in Trello are color-coded and you can&amp;rsquo;t modify the colors, which is sad. But they do have a nice colorblind-friendly mode which is essential for me&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Lists&lt;/h2&gt;
+
+&lt;p&gt;I use lists as somewhat arbitrary divisions within a huge single-file queue to make things more manageable—I plan to consume the last item in &amp;ldquo;Queued Up&amp;rdquo; before the first in &amp;ldquo;Next&amp;rdquo;, and so on. This is the order of lists I use:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Eventually&lt;/li&gt;
+&lt;li&gt;Soon&lt;/li&gt;
+&lt;li&gt;Next&lt;/li&gt;
+&lt;li&gt;Queued Up&lt;/li&gt;
+&lt;li&gt;Currently Doing&lt;/li&gt;
+&lt;li&gt;Done&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Some of these names are terrible (&amp;ldquo;Soon&amp;rdquo; is the second-most longterm?), so I&amp;rsquo;m open to suggestions, but the first three names are almost completely arbitrary. Once an item is in the &amp;ldquo;Queued Up&amp;rdquo; list, I give it a cover image from Google so that Trello makes things nice and pretty.&lt;/p&gt;
+
+&lt;p&gt;I try to think of each the collection of them as a series of sieves—each subsequent list should contain fewer items than the last, so that &amp;ldquo;Queued Up&amp;rdquo; is really just the few things that I&amp;rsquo;m itching to jump and play/watch/read. If I don&amp;rsquo;t regulate this, I often find I&amp;rsquo;ve piled things into &amp;ldquo;Queued Up&amp;rdquo; and there&amp;rsquo;s almost nothing in the previous list. I try to maintain this by keeping the items arranged such that the scrollbars on each list grow bigger from left to right—the added height of cover images in the &amp;ldquo;Queued Up&amp;rdquo; and &amp;ldquo;Currently Doing&amp;rdquo; lists works with this becasue I expect these two lists to be an order of magnitude emptier than the previous ones.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/sieve.png&quot;&gt;&lt;img src=&quot;/img/sieve.png&quot; alt=&quot;Sieves&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;The Meta Checklist&lt;/h2&gt;
+
+&lt;p&gt;This is one of the best features of this system, and I think anyone who enjoys media criticism should consider using this system just for this feature. I listen to a lot of podcasts, read a lot of articles, and watch a lot of videos about the media that I consume, but I often find these before I&amp;rsquo;m ready. For example, I had to ignore a ton of spoilerful podcasts and blog posts flying my way when Bioshock Infinite came out; but when I finally played the game months later, I really wanted to go back and read all those interesting articles and listen to all those great podcasts. So as soon as an article flew my way, I created a &lt;strong&gt;checklist&lt;/strong&gt; in my card for Bioshock Infinite named &amp;ldquo;Meta&amp;rdquo;&lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; and put a link to that article in the list. I essentially have a little sandboxed bookmark list for each title I consume.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/bioshock_checklist.png&quot;&gt;&lt;img src=&quot;/img/bioshock_checklist.png&quot; alt=&quot;Bioshock Infinite checklist&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;One thing I love about storing links in this way (as compared to, say, creating tagged Pinboard bookmarks) is that, when I mark something as done in Trello, the links are right there for me to process.&lt;/p&gt;
+
+&lt;p&gt;I think a lot of people have more specific systems for individual games or individual podcasts, like maintaining a list of unplayed &lt;a href=&quot;http://www.theincomparable.com/theincomparable/&quot;&gt;The Incomparable&lt;/a&gt; episodes and pulling from it when they&amp;rsquo;ve watched something, but I haven&amp;rsquo;t heard of any other solutions that scale beyond one source or discussion topic as neatly as Trello cards do.&lt;/p&gt;
+
+&lt;h2&gt;Extra Data&lt;/h2&gt;
+
+&lt;p&gt;These are some of the extra bits of information I store for each item. A lot of these don&amp;rsquo;t really have a great home in Trello cards, so I&amp;rsquo;ve just developed formats for displaying them in the card title&lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; rel=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Book Card Title&lt;/h3&gt;
+
+&lt;p&gt;I don&amp;rsquo;t actually store any extra info about books in any consistent manner. I&amp;rsquo;ve considered recording page numbers, but that seems misrepresentative. If I&amp;rsquo;ve already bought a copy of a book in a specific easily forgettable form (Kindle or Audible), then I usually put that at the end of the title, but it happens pretty rarely.&lt;/p&gt;
+
+&lt;h3&gt;Game Card Title&lt;/h3&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Bioshock Infinite (PS3-11)&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Platform&lt;/strong&gt;: This is pretty straightforward. If a game is available on multiple platforms and I haven&amp;rsquo;t bought it for one of them yet, then I usually put both (&amp;ldquo;360/PS3&amp;rdquo;) to put off the decision of where to play until later&lt;sup id=&quot;fnref:6&quot;&gt;&lt;a href=&quot;#fn:6&quot; rel=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Length&lt;/strong&gt;: &lt;a href=&quot;http://www.howlongtobeat.com/index.php&quot;&gt;How Long to Beat&lt;/a&gt; is an amazing resource.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;TV Show Card Title&lt;/h3&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Arrow (32)&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Episode Length&lt;/strong&gt;: This is pretty straightforward. I usually look this up from Wikipedia. If it&amp;rsquo;s a series I&amp;rsquo;m catching up on, I&amp;rsquo;ll only include the number of episodes I have left, but I definitely don&amp;rsquo;t try to maintain and count down this number as I complete each episode.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;Completed Title&lt;/h3&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Orphan Black (10) ★★★★★&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Once I move something into the &amp;ldquo;Done&amp;rdquo; list, I add a star rating to the title for easy reference. I do this quickly with some &lt;a href=&quot;http://smilesoftware.com/TextExpander/index.html&quot;&gt;TextExpander&lt;/a&gt; snippets which map, for example, &amp;ldquo;;;3&amp;rdquo; to ★★★☆☆.&lt;/p&gt;
+
+&lt;h3&gt;Calendar&lt;/h3&gt;
+
+&lt;p&gt;On &lt;a href=&quot;http://5by5.tv/directional/17&quot;&gt;Directional #17&lt;/a&gt;, Federico and Myke talked about a &lt;a href=&quot;https://twitter.com/jeffinitelyjeff/status/481828567148666881&quot;&gt;tweet&lt;/a&gt; I sent them asking what system they used to track their queue. Federico mentioned that his primary system was to put new game releases on a calendar. I personally haven&amp;rsquo;t done much with the calendar features of Trello, but you can assign dates to cards and enable a calendar view, so I imagine this release date tracking would fit perfectly alongside some of the organization I described above (but not so well if you rely on notifications about release dates).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Am I crazy? Yes.&lt;/p&gt;
+
+&lt;p&gt;If I&amp;rsquo;ve inspired you to sign up for Trello, I&amp;rsquo;d love if you did it through &lt;a href=&quot;https://trello.com/rubergly/recommend&quot;&gt;my referral link&lt;/a&gt;&lt;sup id=&quot;fnref:7&quot;&gt;&lt;a href=&quot;#fn:7&quot; rel=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you have a different solution for these problems, or if you&amp;rsquo;ve employed this setup with some interesting tweaks, I&amp;rsquo;d love to hear about it on Twitter (&lt;a href=&quot;http://twitter.com/jeffinitelyjeff&quot;&gt;@jeffinitelyjeff&lt;/a&gt;).&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+&lt;hr/&gt;
+&lt;ol&gt;
+&lt;li id=&quot;fn:1&quot;&gt;
+&lt;p&gt;I also use Trello to track what movies I want to watch, but do so in a separate board which I won&amp;rsquo;t be describing here. I keep it in a separate board because movies are one-time experiences centered around &amp;ldquo;what am I in the mood for tonight?&amp;rdquo;, whereas my primary media queue centers around the concept of the &amp;ldquo;currently doing&amp;rdquo; list.&lt;a href=&quot;#fnref:1&quot; rev=&quot;footnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&quot;fn:2&quot;&gt;
+&lt;p&gt;In order: &lt;em&gt;Growlanser II&lt;/em&gt;, &lt;em&gt;Growlanser III&lt;/em&gt;, &lt;em&gt;Final Fantasy XII&lt;/em&gt;, &lt;em&gt;Okami&lt;/em&gt;, &lt;em&gt;Twilight Princess&lt;/em&gt;, &lt;em&gt;Golden Sun&lt;/em&gt;, &lt;em&gt;Golden Sun: The Lost Age&lt;/em&gt;, and &lt;em&gt;Pokemon Ruby&lt;/em&gt;.&lt;a href=&quot;#fnref:2&quot; rev=&quot;footnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&quot;fn:3&quot;&gt;
+&lt;p&gt;I do hold a tiny sliver of a grudge that they didn&amp;rsquo;t pick 6 colors that were colorblind-safe from the start, but I guess this was limited by wanting to keep the entire app within a limited color palette.&lt;a href=&quot;#fnref:3&quot; rev=&quot;footnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&quot;fn:4&quot;&gt;
+&lt;p&gt;It&amp;rsquo;s media about media. I feel a bit odd considering blog posts, podcasts, and Youtube videos &amp;ldquo;media&amp;rdquo; on the same level as the games and movies they discuss, but I haven&amp;rsquo;t been able to think of a better name.&lt;a href=&quot;#fnref:4&quot; rev=&quot;footnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&quot;fn:5&quot;&gt;
+&lt;p&gt;Part of me wishes Trello had an interface for storing arbitrary JSON data or key-value string pairs, so I could store all this in a more systematic manner. But it would add noise to the interface, probably not be useful for any other use case, and would actually display the information less conveniently for this case (since it&amp;rsquo;d be tucked into some table on the card back, and not in the title).&lt;a href=&quot;#fnref:5&quot; rev=&quot;footnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&quot;fn:6&quot;&gt;
+&lt;p&gt;Though this is often a remarkably hard thing to research, given that usually there is a commonly agreed on answer if you were to actually talk to people in games press. I often Google some form of &amp;ldquo;which platform X&amp;rdquo; or &amp;ldquo;X PS3 or 360&amp;rdquo; and hope to find an article with an in-depth comparison. I wish there were a site with a community just focused on providing the answer to this question (see &lt;a href=&quot;http://gaming.stackexchange.com/questions/16639/does-a-website-exist-that-compares-the-versions-of-the-same-game-on-different-pl&quot;&gt;this Arqade question&lt;/a&gt;). &lt;a href=&quot;http://gamedifferences.com/&quot;&gt;Game Differences&lt;/a&gt; offers in depth descriptions, but is a narrow, curated list. &lt;a href=&quot;http://www.lensoftruth.com/category/head2head/&quot;&gt;Lens of Truth&amp;rsquo;s Head2Head series&lt;/a&gt; is the resource that most often comes up in my Google results and seems pretty good, but I don&amp;rsquo;t know what percentage of games they cover.&lt;a href=&quot;#fnref:6&quot; rev=&quot;footnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&quot;fn:7&quot;&gt;
+&lt;p&gt;Signing up through the referral link will give me free months of &lt;a href=&quot;https://trello.com/gold&quot;&gt;Trello Gold&lt;/a&gt;, which is a nice collection of enhancements, but I haven&amp;rsquo;t mentioned it in this post because none of the features are really super useful.&lt;a href=&quot;#fnref:7&quot; rev=&quot;footnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Where Have All the Good Tweets Gone?</title>
