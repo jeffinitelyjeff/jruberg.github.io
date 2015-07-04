@@ -4,7 +4,7 @@
  <title>Jeffinitely A Blog</title>
  <link href="http://jeffinitely.com/atom.xml" rel="self"/>
  <link href="http://jeffinitely.com/"/>
- <updated>2015-06-30T06:59:51-07:00</updated>
+ <updated>2015-07-03T18:16:37-07:00</updated>
  <id>http://jeffinitely.com</id>
  <author>
    <name>Jeff Ruberg</name>
@@ -26,7 +26,7 @@
 
 &lt;table class=&quot;podcast-directory&quot;&gt;
 
-&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;/img/true_detective_s2/weekly.jpeg&quot; /&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;https://www.idlethumbs.net/truedetective/&quot;&gt;True Detective Weekly&lt;/a&gt;&lt;/h4&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;https://www.idlethumbs.net/truedetective/&quot;&gt;&lt;img class=&quot;hvr-grow&quot; src=&quot;/img/true_detective_s2/weekly.jpeg&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;https://www.idlethumbs.net/truedetective/&quot;&gt;True Detective Weekly&lt;/a&gt;&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Network: &lt;a href=&quot;https://www.idlethumbs.net&quot;&gt;Idle Thumbs&lt;/a&gt;&lt;/li&gt;
@@ -38,7 +38,7 @@
 
 &lt;/td&gt;&lt;/tr&gt;
 
-&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;/img/true_detective_s2/deserve.jpeg&quot; /&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;http://baldmove.com/category/true-detective/&quot;&gt;The World We Deserve&lt;/a&gt;&lt;/h4&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://baldmove.com/category/true-detective/&quot;&gt;&lt;img class=&quot;hvr-grow&quot; src=&quot;/img/true_detective_s2/deserve.jpeg&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;http://baldmove.com/category/true-detective/&quot;&gt;The World We Deserve&lt;/a&gt;&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Network: &lt;a href=&quot;http://baldmove.com&quot;&gt;Bald Move&lt;/a&gt;&lt;/li&gt;
@@ -49,7 +49,7 @@
 
 &lt;/td&gt;&lt;/tr&gt;
 
-&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;/img/true_detective_s2/evidence_locker.jpg&quot; /&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;https://www.theincomparable.com/teevee/truedetective/&quot;&gt;True Detective Evidence Locker&lt;/a&gt;&lt;/h4&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;https://www.theincomparable.com/teevee/truedetective/&quot;&gt;&lt;img class=&quot;hvr-grow&quot; src=&quot;/img/true_detective_s2/evidence_locker.jpg&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;https://www.theincomparable.com/teevee/truedetective/&quot;&gt;True Detective Evidence Locker&lt;/a&gt;&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Network: &lt;a href=&quot;https://www.theincomparable.com/&quot;&gt;The Incomparable&lt;/a&gt;&lt;/li&gt;
@@ -59,7 +59,7 @@
 
 &lt;/td&gt;&lt;/tr&gt;
 
-&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;/img/true_detective_s2/vinci.jpeg&quot; /&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;http://www.scpr.org/programs/welcome-to-vinci/&quot;&gt;Welcome to Vinci&lt;/a&gt;&lt;/h4&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://www.scpr.org/programs/welcome-to-vinci/&quot;&gt;&lt;img class=&quot;hvr-grow&quot; src=&quot;/img/true_detective_s2/vinci.jpeg&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;http://www.scpr.org/programs/welcome-to-vinci/&quot;&gt;Welcome to Vinci&lt;/a&gt;&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Network: &lt;a href=&quot;http://www.scpr.org&quot;&gt;89.3 KPCC Southern California Public Radio&lt;/a&gt;&lt;/li&gt;
@@ -71,7 +71,7 @@
 
 &lt;/td&gt;&lt;/tr&gt;
 
-&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;/img/true_detective_s2/detect.jpeg&quot; /&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;http://www.filmgeekradio.com/category/featured/shows/detectthis/&quot;&gt;Detect This!&lt;/a&gt;&lt;/h4&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://www.filmgeekradio.com/category/featured/shows/detectthis/&quot;&gt;&lt;img class=&quot;hvr-grow&quot; src=&quot;/img/true_detective_s2/detect.jpeg&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;http://www.filmgeekradio.com/category/featured/shows/detectthis/&quot;&gt;Detect This!&lt;/a&gt;&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Network: &lt;a href=&quot;http://www.filmgeekradio.com/&quot;&gt;Film Geek Radio&lt;/a&gt;&lt;/li&gt;
@@ -83,7 +83,7 @@
 
 &lt;/td&gt;&lt;/tr&gt;
 
-&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;/img/true_detective_s2/natter.jpeg&quot; /&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;http://nattercast.blogspot.com/&quot;&gt;Nattercast&lt;/a&gt;&lt;/h4&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://nattercast.blogspot.com/&quot;&gt;&lt;img class=&quot;hvr-grow&quot; src=&quot;/img/true_detective_s2/natter.jpeg&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;http://nattercast.blogspot.com/&quot;&gt;Nattercast&lt;/a&gt;&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; Not exclusively a True Detective podcast, but looks to be releasing weekly True Detective episodes.&lt;/li&gt;
@@ -96,7 +96,7 @@
 
 &lt;/td&gt;&lt;/tr&gt;
 
-&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;/img/true_detective_s2/lsg.jpeg&quot; /&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;http://www.libertystreetgeek.net/category/true-detective/&quot;&gt;LSG Media&amp;rsquo;s True Detective Podcast&lt;/a&gt;&lt;/h4&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://www.libertystreetgeek.net/category/true-detective/&quot;&gt;&lt;img class=&quot;hvr-grow&quot; src=&quot;/img/true_detective_s2/lsg.jpeg&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;http://www.libertystreetgeek.net/category/true-detective/&quot;&gt;LSG Media&amp;rsquo;s True Detective Podcast&lt;/a&gt;&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Network: &lt;a href=&quot;http://www.libertystreetgeek.net/&quot;&gt;LSG Media&lt;/a&gt;&lt;/li&gt;
@@ -107,7 +107,7 @@
 
 &lt;/td&gt;&lt;/tr&gt;
 
-&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;/img/true_detective_s2/afterbuzz.jpeg&quot; /&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;https://itunes.apple.com/us/podcast/true-detective-afterbuzz-tv/id796300085?mt=2&quot;&gt;AfterBuzz TV&amp;rsquo;s After Show&lt;/a&gt;&lt;/h4&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;https://itunes.apple.com/us/podcast/true-detective-afterbuzz-tv/id796300085?mt=2&quot;&gt;&lt;img class=&quot;hvr-grow&quot; src=&quot;/img/true_detective_s2/afterbuzz.jpeg&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;https://itunes.apple.com/us/podcast/true-detective-afterbuzz-tv/id796300085?mt=2&quot;&gt;AfterBuzz TV&amp;rsquo;s After Show&lt;/a&gt;&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Network: &lt;a href=&quot;https://www.youtube.com/user/AfterBuzzTV&quot;&gt;AfterBuzz&lt;/a&gt;&lt;/li&gt;
@@ -119,7 +119,7 @@
 
 &lt;/td&gt;&lt;/tr&gt;
 
-&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;/img/true_detective_s2/schlubs.jpeg&quot; /&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;http://filmschlubs.tumblr.com/&quot;&gt;Film Schlubs&lt;/a&gt;&lt;/h4&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://filmschlubs.tumblr.com/&quot;&gt;&lt;img class=&quot;hvr-grow&quot; src=&quot;/img/true_detective_s2/schlubs.jpeg&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;http://filmschlubs.tumblr.com/&quot;&gt;Film Schlubs&lt;/a&gt;&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; Not exclusively a True Detective podcast, but looks to be releasing weekly True Detective episodes.&lt;/li&gt;
@@ -130,7 +130,7 @@
 
 &lt;/td&gt;&lt;/tr&gt;
 
-&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;/img/true_detective_s2/watching.png&quot; /&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;http://listen.undertheguntheater.com/&quot;&gt;Watching True Detective&lt;/a&gt;&lt;/h4&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://listen.undertheguntheater.com/&quot;&gt;&lt;img class=&quot;hvr-grow&quot; src=&quot;/img/true_detective_s2/watching.png&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;http://listen.undertheguntheater.com/&quot;&gt;Watching True Detective&lt;/a&gt;&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Average Length: 71 min&lt;/li&gt;
@@ -139,7 +139,7 @@
 
 &lt;/td&gt;&lt;/tr&gt;
 
-&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;/img/true_detective_s2/west.jpeg&quot; /&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;http://www.filmdispenser.com/category/podcast/true-detective/&quot;&gt;West of Galveston&lt;/a&gt;&lt;/h4&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://www.filmdispenser.com/category/podcast/true-detective/&quot;&gt;&lt;img class=&quot;hvr-grow&quot; src=&quot;/img/true_detective_s2/west.jpeg&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;http://www.filmdispenser.com/category/podcast/true-detective/&quot;&gt;West of Galveston&lt;/a&gt;&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Average Length: 47 min&lt;/li&gt;
@@ -148,7 +148,7 @@
 
 &lt;/td&gt;&lt;/tr&gt;
 
-&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;/img/true_detective_s2/post.jpeg&quot; /&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;https://itunes.apple.com/us/podcast/true-detective-post-show-recaps/id1009033138?mt=2&quot;&gt;Post Show Recaps&lt;/a&gt;&lt;/h4&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;https://itunes.apple.com/us/podcast/true-detective-post-show-recaps/id1009033138?mt=2&quot;&gt;&lt;img class=&quot;hvr-grow&quot; src=&quot;/img/true_detective_s2/post.jpeg&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;https://itunes.apple.com/us/podcast/true-detective-post-show-recaps/id1009033138?mt=2&quot;&gt;Post Show Recaps&lt;/a&gt;&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Network: &lt;a href=&quot;http://postshowrecaps.com/&quot;&gt;Post Show Recaps&lt;/a&gt;&lt;/li&gt;
@@ -158,7 +158,7 @@
 
 &lt;/td&gt;&lt;/tr&gt;
 
-&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;/img/true_detective_s2/everything.jpeg&quot; /&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;http://www.eipodcast.com/truedetective/&quot;&gt;Everything True Detective&lt;/a&gt;&lt;/h4&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://www.eipodcast.com/truedetective/&quot;&gt;&lt;img class=&quot;hvr-grow&quot; src=&quot;/img/true_detective_s2/everything.jpeg&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;http://www.eipodcast.com/truedetective/&quot;&gt;Everything True Detective&lt;/a&gt;&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Network: &lt;a href=&quot;http://www.eipodcast.com/&quot;&gt;Everything is Interesting&lt;/a&gt;&lt;/li&gt;
@@ -168,7 +168,7 @@
 
 &lt;/td&gt;&lt;/tr&gt;
 
-&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;/img/true_detective_s2/you_deserve.jpeg&quot; /&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;https://soundcloud.com/true-detective-podcast&quot;&gt;The Podcast You Deserve&lt;/a&gt;&lt;/h4&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;https://soundcloud.com/true-detective-podcast&quot;&gt;&lt;img class=&quot;hvr-grow&quot; src=&quot;/img/true_detective_s2/you_deserve.jpeg&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;https://soundcloud.com/true-detective-podcast&quot;&gt;The Podcast You Deserve&lt;/a&gt;&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Average Length: 31 min&lt;/li&gt;
@@ -179,7 +179,7 @@
 
 
 
-&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;/img/true_detective_s2/true_that.jpeg&quot; /&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;http://www.truethatpodcast.com/&quot;&gt;True That&lt;/a&gt;&lt;/h4&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://www.truethatpodcast.com/&quot;&gt;&lt;img class=&quot;hvr-grow&quot; src=&quot;/img/true_detective_s2/true_that.jpeg&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;http://www.truethatpodcast.com/&quot;&gt;True That&lt;/a&gt;&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Average Length: 54 min&lt;/li&gt;
@@ -188,7 +188,7 @@
 
 &lt;/td&gt;&lt;/tr&gt;
 
-&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;/img/true_detective_s2/flat.jpeg&quot; /&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;https://itunes.apple.com/us/podcast/flat-circle-true-detective/id1010196012?mt=2&quot;&gt;The Flat Circle&lt;/a&gt;&lt;/h4&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;https://itunes.apple.com/us/podcast/flat-circle-true-detective/id1010196012?mt=2&quot;&gt;&lt;img class=&quot;hvr-grow&quot; src=&quot;/img/true_detective_s2/flat.jpeg&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;https://itunes.apple.com/us/podcast/flat-circle-true-detective/id1010196012?mt=2&quot;&gt;The Flat Circle&lt;/a&gt;&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Average Length: 44 min&lt;/li&gt;
@@ -197,7 +197,7 @@
 
 &lt;/td&gt;&lt;/tr&gt;
 
-&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;/img/true_detective_s2/taxmen.jpeg&quot; /&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;https://itunes.apple.com/us/podcast/taxmen-true-detective-podcast/id1012150450?mt=2&quot;&gt;The Taxmen&lt;/a&gt;&lt;/h4&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;https://itunes.apple.com/us/podcast/taxmen-true-detective-podcast/id1012150450?mt=2&quot;&gt;&lt;img class=&quot;hvr-grow&quot; src=&quot;/img/true_detective_s2/taxmen.jpeg&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;https://itunes.apple.com/us/podcast/taxmen-true-detective-podcast/id1012150450?mt=2&quot;&gt;The Taxmen&lt;/a&gt;&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Average Length: 48 min&lt;/li&gt;
@@ -206,7 +206,7 @@
 
 &lt;/td&gt;&lt;/tr&gt;
 
-&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;/img/true_detective_s2/baltic.jpeg&quot; /&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;https://itunes.apple.com/us/podcast/baltic-effects-true-detective/id1010933617?mt=2&quot;&gt;Baltic Effect&lt;/a&gt;&lt;/h4&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;https://itunes.apple.com/us/podcast/baltic-effects-true-detective/id1010933617?mt=2&quot;&gt;&lt;img class=&quot;hvr-grow&quot; src=&quot;/img/true_detective_s2/baltic.jpeg&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;https://itunes.apple.com/us/podcast/baltic-effects-true-detective/id1010933617?mt=2&quot;&gt;Baltic Effect&lt;/a&gt;&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; Not exclusively a True Detective podcast? I think?&lt;/li&gt;
@@ -216,7 +216,17 @@
 
 &lt;/td&gt;&lt;/tr&gt;
 
-&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;/img/true_detective_s2/trudic.jpeg&quot; /&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;https://itunes.apple.com/us/podcast/trudic-true-detective-podcast/id1007518409?mt=2&quot;&gt;TruDic&lt;/a&gt;&lt;/h4&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;https://itunes.apple.com/us/podcast/the-poop-epiphany-podcast/id954712589&quot;&gt;&lt;img class=&quot;hvr-grow&quot; src=&quot;/img/true_detective_s2/poop.jpeg&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;https://itunes.apple.com/us/podcast/the-poop-epiphany-podcast/id954712589&quot;&gt;The Poop Epiphany&lt;/a&gt;&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; Not exclusively a True Detective podcast&lt;/li&gt;
+&lt;li&gt;Average Length: 55 min&lt;/li&gt;
+&lt;li&gt;Subscribe: &lt;a href=&quot;https://itunes.apple.com/us/podcast/the-poop-epiphany-podcast/id954712589&quot;&gt;iTunes&lt;/a&gt; | &lt;a href=&quot;http://feeds.feedburner.com/PoopEpiphanyPodcast&quot;&gt;RSS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;https://itunes.apple.com/us/podcast/trudic-true-detective-podcast/id1007518409?mt=2&quot;&gt;&lt;img class=&quot;hvr-grow&quot; src=&quot;/img/true_detective_s2/trudic.jpeg&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;h4&gt;&lt;a href=&quot;https://itunes.apple.com/us/podcast/trudic-true-detective-podcast/id1007518409?mt=2&quot;&gt;TruDic&lt;/a&gt;&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Subscribe: &lt;a href=&quot;https://itunes.apple.com/us/podcast/trudic-true-detective-podcast/id1007518409?mt=2&quot;&gt;iTunes&lt;/a&gt;&lt;/li&gt;
